@@ -57,6 +57,7 @@ nav ul li a {
 }
 
 
+
 /* Services Section */
 .services {
     text-align: center;
@@ -264,4 +265,17 @@ img {
 
 button:hover {
     animation: bounce 0.5s ease;
+}
+
+.dark-theme {
+    background-color: #121212;
+    color: #f0f0f0;
+}
+
+.answer {
+    display: none;
+}
+
+.answer.visible {
+    display: block;
 }
